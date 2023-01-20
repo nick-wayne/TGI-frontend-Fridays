@@ -11,6 +11,56 @@ body p {
     font-size: 15px;
 }
 
-html, body {
+html {
+    font-size: 18px;
+}
+
+html, body, .btn {
     font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+p, .ratings-container span {
+    color: var(--light-grey);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+}
+
+.component {
+    background-color: var(--dark-blue);
+}
+
+input[type="radio"] {
+    opacity: 0;
+}
+
+.btn {
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
 }
