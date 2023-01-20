@@ -13,12 +13,12 @@
   <link rel="stylesheet" href="styles/reset.css" >
   <link rel="stylesheet" href="styles/style.css" >
   
-  <title>Frontend Mentor | Interactive rating component</title>
+<title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container row center">
     <div class="component" >
-      <div class="logo-wrapper">
+      <div class="logo-wrapper row center circle">
         <img src="images/icon-star.svg" alt="Orange star"
         class="logo" />
       </div>
@@ -31,29 +31,31 @@
         </p>
       </div>
       <form>
-        <label for="1">
+        <div class="row ratings-container">
+        <label for="1" class="circle row center">
           <input type="radio" name="rating" id="1" value="1">
           <span>1</span>
         </label>
-        <label for="2">
+        <label for="2" class="circle row center">
           <input type="radio" name="rating" id="1" value="1">
           <span>2</span>
         </label>
-        <label for="3">
+        <label for="3" class="circle row center">
           <input type="radio" name="rating" id="1" value="1">
           <span>3</span>
         </label>
-        <label for="4">
+        <label for="4" class="circle row center">
           <input type="radio" name="rating" id="1" value="1">
           <span>4</span>
         </label>
-        <label for="5">
+        <label for="5" class="circle row center">
           <input type="radio" name="rating" id="1" value="1">
           <span>5</span>
         </label>
+      </div>
+      <button type="submit" class="btn uppercase">Submit</button>  
       </form>
     </div>
-    <button type="submit" class="btn uppercase">Submit</button>  
   </div>
 </body>
 </html>
